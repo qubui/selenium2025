@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'    // must match the name in Jenkins tool config
-        jdk 'JDK17'       // must match the name in Jenkins tool config
-    }
-
     parameters {
         choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge'], description: 'Select browser')
         choice(name: 'ENV', choices: ['UAT', 'INT', 'PROD'], description: 'Select environment')
