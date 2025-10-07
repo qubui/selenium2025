@@ -1,6 +1,11 @@
 package reports;
 
 import com.aventstack.extentreports.*;
+
+import driver.DriverFactory;
+import utils.ScreenshotUtil;
+
+import org.openqa.selenium.WebDriver;
 import org.testng.*;
 
 public class TestListener implements ITestListener {
@@ -21,8 +26,18 @@ public class TestListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result) {
         testThread.get().fail(result.getThrowable());
-    }
 
+        WebDriver driver = DriverFactory.getDriver(); // get current driver
+        String screenshotPath = ScreenshotUtil.captureScreenshot(driver, result.getMethod().getMethodName());
+
+        if (screenshotPath != null) {
+            try {
+                testThread.get().addScreenCaptureFromPath(screenshotPath, "Failure Screenshot");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
     @Override
     public void onFinish(ITestContext context) {
         extent.flush();

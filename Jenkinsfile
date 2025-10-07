@@ -30,14 +30,30 @@ pipeline {
             }
         }
 
-       stage('Publish HTML Report') {
+       stage('Publish Extent Report') {
     		steps {
         	publishHTML(target: [
             reportDir: 'target/extent-report',
             reportFiles: 'index.html',
-            reportName: 'Extent Report'
-        ])
+            reportName: 'Extent Report',
+            keepAll: true,
+            alwaysLinkToLastBuild: true,
+            allowMissing: false
+        	])
     		}
 		}
+    }
+    
+    post {
+        always {
+            echo "Cleaning workspace..."
+            cleanWs()
+        }
+        success {
+            echo "✅ Build succeeded!"
+        }
+        failure {
+            echo "❌ Build failed. Check reports for details."
+        }
     }
 }
