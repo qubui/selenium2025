@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    triggers {
+        cron('0 7 * * *')  // runs at 7:00 AM every day
+    }
     parameters {
         choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge'], description: 'Select browser')
         choice(name: 'ENV', choices: ['UAT', 'INT', 'PROD'], description: 'Select environment')
@@ -35,7 +37,7 @@ pipeline {
         	publishHTML(target: [
             reportDir: 'target/extent-report',
             reportFiles: 'index.html',
-            reportName: 'Extent Report',
+            reportName: 'HTML Extent Report',
             keepAll: true,
             alwaysLinkToLastBuild: true,
             allowMissing: false
