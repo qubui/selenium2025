@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven3'   // Jenkins global tool config name
-        jdk 'JDK11'      // Jenkins global tool config name
+        jdk 'JDK17'      // Jenkins global tool config name
     }
 
     parameters {
