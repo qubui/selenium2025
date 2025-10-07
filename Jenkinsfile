@@ -33,7 +33,7 @@ pipeline {
        stage('Publish HTML Report') {
     		steps {
         	publishHTML(target: [
-            reportDir: 'target/extent-reports',
+            reportDir: 'target/extent-report',
             reportFiles: 'index.html',
             reportName: 'Extent Report'
         ])
