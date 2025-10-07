@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh "mvn clean test -Dbrowser=${params.BROWSER} -Denv=${params.ENV}"
+                bat "mvn clean test -Dbrowser=${params.BROWSER} -Denv=${params.ENV}"
             }
         }
 
