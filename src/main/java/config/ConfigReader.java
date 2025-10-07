@@ -14,6 +14,21 @@ public class ConfigReader {
             throw new RuntimeException("Failed to load config.properties");
         }
     }
+    
+    // Browser with Jenkins override
+    public static String getBrowser() {
+        return System.getProperty("browser", props.getProperty("browser"));
+    }
+
+    // Timeout with Jenkins override
+    public static int getTimeout() {
+        return Integer.parseInt(System.getProperty("timeout", props.getProperty("timeout")));
+    }
+    
+    // Env + Base URL
+    public static String getEnv() {
+        return System.getProperty("env", props.getProperty("env"));
+    }
 
     public static String get(String key) {
         return props.getProperty(key);
