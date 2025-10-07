@@ -5,7 +5,7 @@ pipeline {
     }
     parameters {
         choice(name: 'BROWSER', choices: ['chrome', 'firefox', 'edge'], description: 'Select browser')
-        choice(name: 'ENV', choices: ['UAT', 'INT', 'PROD'], description: 'Select environment')
+        choice(name: 'ENV', choices: ['PROD', 'INT', 'UAT'], description: 'Select environment')
     }
 
     options {
