@@ -30,14 +30,14 @@ pipeline {
             }
         }
 
-        stage('Publish HTML Report') {
-            steps {
-                publishHTML([[
-                    reportDir: 'target/extent-reports',
-                    reportFiles: 'index.html',
-                    reportName: 'Extent Report'
-                ]])
-            }
-        }
+       stage('Publish HTML Report') {
+    		steps {
+        	publishHTML(target: [
+            reportDir: 'target/extent-reports',
+            reportFiles: 'index.html',
+            reportName: 'Extent Report'
+        ])
+    		}
+		}
     }
 }
