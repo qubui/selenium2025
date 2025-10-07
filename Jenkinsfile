@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // Jenkins global tool config name
-        jdk 'JDK17'      // Jenkins global tool config name
+        maven 'Maven3'    // must match the name in Jenkins tool config
+        jdk 'JDK17'       // must match the name in Jenkins tool config
     }
 
     parameters {
@@ -12,8 +12,8 @@ pipeline {
     }
 
     options {
-        timestamps()   // show timestamps in logs
-        ansiColor('xterm') // better console coloring
+        ansiColor('xterm')    // requires AnsiColor plugin
+        timestamps()          // show timestamps in logs
     }
 
     stages {
@@ -37,28 +37,12 @@ pipeline {
 
         stage('Publish HTML Report') {
             steps {
-                publishHTML([
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
+                publishHTML([[
                     reportDir: 'target/extent-reports',
                     reportFiles: 'index.html',
                     reportName: 'Extent Report'
-                ])
+                ]])
             }
-        }
-    }
-
-    post {
-        always {
-            echo "Cleaning workspace..."
-            cleanWs()
-        }
-        success {
-            echo "✅ Build succeeded!"
-        }
-        failure {
-            echo "❌ Build failed. Check reports for details."
         }
     }
 }
