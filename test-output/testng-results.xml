@@ -1,127 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-07T13:23:06 ICT" name="Default suite" finished-at="2025-10-07T13:23:52 ICT" duration-ms="45345">
+  <suite started-at="2025-10-08T13:16:17 ICT" name="Default suite" finished-at="2025-10-08T13:16:29 ICT" duration-ms="12110">
     <groups>
     </groups>
-    <test started-at="2025-10-07T13:23:06 ICT" name="Default test" finished-at="2025-10-07T13:23:52 ICT" duration-ms="45345">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:06 ICT" name="setUp" finished-at="2025-10-07T13:23:16 ICT" duration-ms="9496" status="PASS">
+    <test started-at="2025-10-08T13:16:17 ICT" name="Default test" finished-at="2025-10-08T13:16:29 ICT" duration-ms="12110">
+      <class name="tests.DropdownTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:17 ICT" name="setUp" finished-at="2025-10-08T13:16:23 ICT" duration-ms="6481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:16 ICT" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-07T13:23:17 ICT" duration-ms="1172" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@1ad1b737]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testSelectOption1()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:23 ICT" name="testSelectOption1" finished-at="2025-10-08T13:16:24 ICT" duration-ms="550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginCSV -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:17 ICT" name="tearDown" finished-at="2025-10-07T13:23:17 ICT" duration-ms="360" status="PASS">
+        </test-method> <!-- testSelectOption1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:24 ICT" name="tearDown" finished-at="2025-10-08T13:16:24 ICT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:17 ICT" name="setUp" finished-at="2025-10-07T13:23:23 ICT" duration-ms="5330" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:24 ICT" name="setUp" finished-at="2025-10-08T13:16:28 ICT" duration-ms="4021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:23 ICT" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-07T13:23:24 ICT" duration-ms="1220" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.String;@7f4f1536]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testSelectOption2()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:28 ICT" name="testSelectOption2" finished-at="2025-10-08T13:16:29 ICT" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginCSV -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:24 ICT" name="tearDown" finished-at="2025-10-07T13:23:24 ICT" duration-ms="248" status="PASS">
+        </test-method> <!-- testSelectOption2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@3e08ff24]" started-at="2025-10-08T13:16:29 ICT" name="tearDown" finished-at="2025-10-08T13:16:29 ICT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:25 ICT" name="setUp" finished-at="2025-10-07T13:23:30 ICT" duration-ms="5322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:30 ICT" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-07T13:23:31 ICT" duration-ms="1030" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=SuperSecretPassword!, expected=You logged into, username=tomsmith}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginExcel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:31 ICT" name="tearDown" finished-at="2025-10-07T13:23:32 ICT" duration-ms="403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:32 ICT" name="setUp" finished-at="2025-10-07T13:23:37 ICT" duration-ms="5296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:37 ICT" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-07T13:23:38 ICT" duration-ms="983" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=wrong, expected=Your username, username=invalid}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginExcel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:38 ICT" name="tearDown" finished-at="2025-10-07T13:23:38 ICT" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:39 ICT" name="setUp" finished-at="2025-10-07T13:23:44 ICT" duration-ms="4930" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:44 ICT" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-07T13:23:45 ICT" duration-ms="1102" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{username=tomsmith, password=SuperSecretPassword!, expected=You logged into}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginJSON -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:45 ICT" name="tearDown" finished-at="2025-10-07T13:23:45 ICT" duration-ms="297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:45 ICT" name="setUp" finished-at="2025-10-07T13:23:50 ICT" duration-ms="5394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:50 ICT" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-07T13:23:51 ICT" duration-ms="990" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{username=invalid, password=wrong, expected=Your username}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginJSON -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@24569dba]" started-at="2025-10-07T13:23:51 ICT" name="tearDown" finished-at="2025-10-07T13:23:52 ICT" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.DropdownTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -22,9 +22,9 @@ public class DriverFactory {
                 driver = new FirefoxDriver();
                 break;
             case "edge":
-                WebDriverManager.edgedriver().setup();
-                EdgeOptions edgeOptions = new EdgeOptions();
-                driver = new EdgeDriver(edgeOptions);
+                String driverPath = System.getProperty("user.dir") + "\\src\\main\\java\\driver\\msedgedriver.exe";
+                System.setProperty("webdriver.edge.driver", driverPath);
+                driver = new EdgeDriver();
                 break;
 
             case "chrome":
