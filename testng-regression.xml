@@ -8,6 +8,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="tests.LoginTest"/>
+      <class name="tests.DragAndDropTest"/>
+      <class name="tests.DropdownTest"/>
+      <class name="tests.HoversTest"/>
+      <class name="tests.InfiniteScrollTest"/>     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
