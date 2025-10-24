@@ -1,4 +1,0 @@
-[
-  { "username": "tomsmith", "password": "SuperSecretPassword!", "expected": "You logged into" },
-  { "username": "invalid", "password": "wrong", "expected": "Your username" }
-]

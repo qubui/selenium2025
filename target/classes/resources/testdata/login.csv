@@ -1,3 +1,0 @@
-﻿username,password,expected
-tomsmith,SuperSecretPassword!,You logged into
-invalid,wrong,Your username
