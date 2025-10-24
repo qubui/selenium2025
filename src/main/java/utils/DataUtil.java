@@ -116,7 +116,7 @@ public class DataUtil {
 
     /** ---------------- TestNG DataProviders ---------------- **/
 
-    @DataProvider(name = "csvData")
+    @DataProvider(name = "csvData", parallel = true)
     public static Iterator<Object[]> csvDataProvider() {
         List<String[]> rows = readCSV("src/main/java/resources/testdata/login.csv");
         List<Object[]> out = new ArrayList<>();
@@ -126,7 +126,7 @@ public class DataUtil {
         return out.iterator();
     }
 
-    @DataProvider(name = "excelData")
+    @DataProvider(name = "excelData", parallel = true)
     public static Iterator<Object[]> excelDataProvider() {
         List<Map<String, String>> data = readExcel("src/main/java/resources/testdata/login.xlsx", "Sheet1");
         List<Object[]> out = new ArrayList<>();
@@ -136,7 +136,7 @@ public class DataUtil {
         return out.iterator();
     }
 
-    @DataProvider(name = "jsonData")
+    @DataProvider(name = "jsonData", parallel = true)
     public static Iterator<Object[]> jsonDataProvider() {
         // Assuming JSON is an array of objects -> [{ "username": "...", "password": "..." }, ...]
         List<Map<String, Object>> data = new ArrayList<>();
