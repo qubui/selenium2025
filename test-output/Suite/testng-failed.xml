@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="reports.TestListener"/>
   </listeners>
-  <test thread-count="3" parallel="classes" name="Test(failed)">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
       <class name="tests.HoversTest">
         <methods>
           <include name="testHoverOverThirdFigure"/>
+          <include name="testHoverOverSecondFigure"/>
+          <include name="testHoverOverFirstFigure"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.HoversTest -->
+      <class name="tests.DropdownTest">
+        <methods>
+          <include name="testSelectOption2"/>
+          <include name="testSelectOption1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.DropdownTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testLoginJSON"/>
+          <include name="testLoginCSV"/>
+          <include name="testLoginExcel"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InfiniteScrollTest">
+        <methods>
+          <include name="testInfiniteScrollLoadsMoreContent"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.InfiniteScrollTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -152,4 +152,15 @@ public class DataUtil {
         }
         return out.iterator();
     }
+    
+    
+    @DataProvider(name = "excelDataQAExcercise", parallel = true)
+    public static Iterator<Object[]> excelDataProviderQA() {
+        List<Map<String, String>> data = readExcel("src/main/java/resources/testdata/loginQAExcercise.xlsx", "Sheet1");
+        List<Object[]> out = new ArrayList<>();
+        for (Map<String, String> row : data) {
+            out.add(new Object[]{ row });
+        }
+        return out.iterator();
+    }
 }

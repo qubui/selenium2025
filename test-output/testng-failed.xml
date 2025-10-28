@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.DragAndDropTest">
+      <class name="tests.LoginTestQAExcercise">
         <methods>
-          <include name="testDragAndDrop"/>
+          <include name="testLoginExcel"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.DragAndDropTest -->
+      </class> <!-- tests.LoginTestQAExcercise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
