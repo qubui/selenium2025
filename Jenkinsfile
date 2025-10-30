@@ -52,10 +52,37 @@ pipeline {
             cleanWs()
         }
         success {
-            echo "✅ Build succeeded!"
-        }
+        echo "✅ Build succeeded!"
+        emailext(
+            subject: "✅ SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+            body: """
+                <h3>✅ Build Successful!</h3>
+                <p>Project: ${env.JOB_NAME}</p>
+                <p>Build Number: ${env.BUILD_NUMBER}</p>
+                <p>Environment: ${params.ENV}</p>
+                <p>Browser: ${params.BROWSER}</p>
+                <p><a href="${env.BUILD_URL}HTML_20Extent_20Report/">View Extent Report</a></p>
+                <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
+            """,
+            to: 'nguyenquy1409@gmail.com',
+            attachLog: false
+        )
+    }
         failure {
-            echo "❌ Build failed. Check reports for details."
-        }
+        echo "❌ Build failed. Check reports for details."
+        emailext(
+            subject: "❌ FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+            body: """
+                <h3>❌ Build Failed!</h3>
+                <p>Project: ${env.JOB_NAME}</p>
+                <p>Build Number: ${env.BUILD_NUMBER}</p>
+                <p>Check the report:</p>
+                <p><a href="${env.BUILD_URL}HTML_20Extent_20Report/">View Extent Report</a></p>
+                <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
+            """,
+            to: 'nguyenquy1409@gmail.com',
+            attachLog: true
+        )
+    }
     }
 }

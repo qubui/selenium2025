@@ -2,58 +2,58 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-28T19:04:00 ICT" name="Suite" finished-at="2025-10-28T19:04:46 ICT" duration-ms="45873">
+  <suite started-at="2025-10-30T09:23:10 GMT+07:00" name="Suite" finished-at="2025-10-30T09:24:23 GMT+07:00" duration-ms="72494">
     <groups>
     </groups>
-    <test started-at="2025-10-28T19:04:00 ICT" name="Test" finished-at="2025-10-28T19:04:46 ICT" duration-ms="45873">
+    <test started-at="2025-10-30T09:23:10 GMT+07:00" name="Test" finished-at="2025-10-30T09:24:23 GMT+07:00" duration-ms="72494">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:11 ICT" duration-ms="11395" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:49 GMT+07:00" duration-ms="38939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:11 ICT" duration-ms="11137" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:44 GMT+07:00" duration-ms="33657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:11 ICT" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-28T19:04:16 ICT" duration-ms="5299" status="PASS">
+        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:44 GMT+07:00" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-30T09:23:46 GMT+07:00" duration-ms="1868" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@2970a5bc]]>
+                <![CDATA[[Ljava.lang.String;@7072bc39]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginCSV -->
-        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:11 ICT" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-28T19:04:17 ICT" duration-ms="5547" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:46 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:46 GMT+07:00" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testLoginCSV([Ljava.lang.String;)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:49 GMT+07:00" name="testLoginCSV" data-provider="csvData" finished-at="2025-10-30T09:23:51 GMT+07:00" duration-ms="1208" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@50305a]]>
+                <![CDATA[[Ljava.lang.String;@5149f008]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginCSV -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:16 ICT" name="tearDown" finished-at="2025-10-28T19:04:20 ICT" duration-ms="3365" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:51 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:52 GMT+07:00" duration-ms="1289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:17 ICT" name="tearDown" finished-at="2025-10-28T19:04:20 ICT" duration-ms="2826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:21 ICT" name="setUp" finished-at="2025-10-28T19:04:29 ICT" duration-ms="7397" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:53 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:58 GMT+07:00" duration-ms="4779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:21 ICT" name="setUp" finished-at="2025-10-28T19:04:31 ICT" duration-ms="9652" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:53 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:57 GMT+07:00" duration-ms="3832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:29 ICT" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-28T19:04:35 ICT" duration-ms="5895" status="PASS">
+        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:57 GMT+07:00" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-30T09:24:01 GMT+07:00" duration-ms="4028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginExcel -->
-        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:31 ICT" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-28T19:04:34 ICT" duration-ms="2862" status="PASS">
+        <test-method signature="testLoginExcel(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:23:58 GMT+07:00" name="testLoginExcel" data-provider="excelData" finished-at="2025-10-30T09:24:03 GMT+07:00" duration-ms="4693" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,34 +75,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginExcel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:34 ICT" name="tearDown" finished-at="2025-10-28T19:04:35 ICT" duration-ms="1040" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:01 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:01 GMT+07:00" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:35 ICT" name="tearDown" finished-at="2025-10-28T19:04:35 ICT" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:03 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:03 GMT+07:00" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:35 ICT" name="setUp" finished-at="2025-10-28T19:04:41 ICT" duration-ms="5504" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:03 GMT+07:00" name="setUp" finished-at="2025-10-30T09:24:09 GMT+07:00" duration-ms="5636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:35 ICT" name="setUp" finished-at="2025-10-28T19:04:41 ICT" duration-ms="5426" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:03 GMT+07:00" name="setUp" finished-at="2025-10-30T09:24:09 GMT+07:00" duration-ms="5724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:41 ICT" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-28T19:04:45 ICT" duration-ms="3999" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{username=invalid, password=wrong, expected=Your username}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginJSON -->
-        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:41 ICT" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-28T19:04:45 ICT" duration-ms="4371" status="PASS">
+        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:09 GMT+07:00" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-30T09:24:10 GMT+07:00" duration-ms="1106" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,103 +102,114 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginJSON -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:45 ICT" name="tearDown" finished-at="2025-10-28T19:04:45 ICT" duration-ms="438" status="PASS">
+        <test-method signature="testLoginJSON(java.util.Map)[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:09 GMT+07:00" name="testLoginJSON" data-provider="jsonData" finished-at="2025-10-30T09:24:10 GMT+07:00" duration-ms="1106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=invalid, password=wrong, expected=Your username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginJSON -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:10 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:10 GMT+07:00" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-28T19:04:45 ICT" name="tearDown" finished-at="2025-10-28T19:04:46 ICT" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79517588]" started-at="2025-10-30T09:24:10 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:10 GMT+07:00" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.InfiniteScrollTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:14 ICT" duration-ms="13829" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:54 GMT+07:00" duration-ms="43990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testInfiniteScrollLoadsMoreContent()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-28T19:04:14 ICT" name="testInfiniteScrollLoadsMoreContent" finished-at="2025-10-28T19:04:41 ICT" duration-ms="26932" status="PASS">
+        <test-method signature="testInfiniteScrollLoadsMoreContent()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-30T09:23:54 GMT+07:00" name="testInfiniteScrollLoadsMoreContent" finished-at="2025-10-30T09:24:23 GMT+07:00" duration-ms="28165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInfiniteScrollLoadsMoreContent -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-28T19:04:41 ICT" name="tearDown" finished-at="2025-10-28T19:04:42 ICT" duration-ms="832" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.InfiniteScrollTest@2250b9f2]" started-at="2025-10-30T09:24:23 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:23 GMT+07:00" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.InfiniteScrollTest -->
       <class name="tests.DragAndDropTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:11 ICT" duration-ms="10935" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:49 GMT+07:00" duration-ms="38969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDragAndDrop()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-28T19:04:11 ICT" name="testDragAndDrop" finished-at="2025-10-28T19:04:16 ICT" duration-ms="4611" status="PASS">
+        <test-method signature="testDragAndDrop()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-30T09:23:49 GMT+07:00" name="testDragAndDrop" finished-at="2025-10-30T09:23:57 GMT+07:00" duration-ms="7340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDragAndDrop -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-28T19:04:16 ICT" name="tearDown" finished-at="2025-10-28T19:04:20 ICT" duration-ms="4204" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DragAndDropTest@70f59913]" started-at="2025-10-30T09:23:57 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:58 GMT+07:00" duration-ms="1583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.DragAndDropTest -->
       <class name="tests.HoversTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:13 ICT" duration-ms="13341" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:52 GMT+07:00" duration-ms="41790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHoverOverFirstFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:13 ICT" name="testHoverOverFirstFigure" finished-at="2025-10-28T19:04:14 ICT" duration-ms="969" status="PASS">
+        <test-method signature="testHoverOverFirstFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:23:52 GMT+07:00" name="testHoverOverFirstFigure" finished-at="2025-10-30T09:23:54 GMT+07:00" duration-ms="1616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHoverOverFirstFigure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:14 ICT" name="tearDown" finished-at="2025-10-28T19:04:16 ICT" duration-ms="1803" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:23:54 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:58 GMT+07:00" duration-ms="4394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:16 ICT" name="setUp" finished-at="2025-10-28T19:04:31 ICT" duration-ms="15094" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:23:58 GMT+07:00" name="setUp" finished-at="2025-10-30T09:24:04 GMT+07:00" duration-ms="6092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHoverOverSecondFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:31 ICT" name="testHoverOverSecondFigure" finished-at="2025-10-28T19:04:33 ICT" duration-ms="2063" status="PASS">
+        <test-method signature="testHoverOverSecondFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:24:04 GMT+07:00" name="testHoverOverSecondFigure" finished-at="2025-10-30T09:24:06 GMT+07:00" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHoverOverSecondFigure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:33 ICT" name="tearDown" finished-at="2025-10-28T19:04:35 ICT" duration-ms="1818" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:24:06 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:06 GMT+07:00" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:35 ICT" name="setUp" finished-at="2025-10-28T19:04:39 ICT" duration-ms="4219" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:24:06 GMT+07:00" name="setUp" finished-at="2025-10-30T09:24:12 GMT+07:00" duration-ms="6019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHoverOverThirdFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:39 ICT" name="testHoverOverThirdFigure" finished-at="2025-10-28T19:04:42 ICT" duration-ms="3150" status="PASS">
+        <test-method signature="testHoverOverThirdFigure()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:24:12 GMT+07:00" name="testHoverOverThirdFigure" finished-at="2025-10-30T09:24:13 GMT+07:00" duration-ms="947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHoverOverThirdFigure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-28T19:04:42 ICT" name="tearDown" finished-at="2025-10-28T19:04:43 ICT" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HoversTest@5dcd8c7a]" started-at="2025-10-30T09:24:13 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:24:13 GMT+07:00" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HoversTest -->
       <class name="tests.DropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:00 ICT" name="setUp" finished-at="2025-10-28T19:04:11 ICT" duration-ms="11280" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:10 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:49 GMT+07:00" duration-ms="38850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSelectOption1()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:11 ICT" name="testSelectOption1" finished-at="2025-10-28T19:04:15 ICT" duration-ms="3749" status="PASS">
+        <test-method signature="testSelectOption1()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:49 GMT+07:00" name="testSelectOption1" finished-at="2025-10-30T09:23:50 GMT+07:00" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectOption1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:15 ICT" name="tearDown" finished-at="2025-10-28T19:04:20 ICT" duration-ms="4637" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:50 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:50 GMT+07:00" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:20 ICT" name="setUp" finished-at="2025-10-28T19:04:28 ICT" duration-ms="8111" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:50 GMT+07:00" name="setUp" finished-at="2025-10-30T09:23:57 GMT+07:00" duration-ms="6434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSelectOption2()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:28 ICT" name="testSelectOption2" finished-at="2025-10-28T19:04:32 ICT" duration-ms="4148" status="PASS">
+        <test-method signature="testSelectOption2()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:57 GMT+07:00" name="testSelectOption2" finished-at="2025-10-30T09:23:58 GMT+07:00" duration-ms="1176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectOption2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-28T19:04:32 ICT" name="tearDown" finished-at="2025-10-28T19:04:36 ICT" duration-ms="3995" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DropdownTest@77258e59]" started-at="2025-10-30T09:23:58 GMT+07:00" name="tearDown" finished-at="2025-10-30T09:23:58 GMT+07:00" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
