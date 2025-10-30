@@ -71,20 +71,20 @@ pipeline {
     }
         failure {
         echo "❌ Build failed. Check reports for details."
-        emailext(
-            subject: "❌ FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
-            body: """
-                <h3>❌ Build Failed!</h3>
-                <p>Project: ${env.JOB_NAME}</p>
-                <p>Build Number: ${env.BUILD_NUMBER}</p>
-                <p>Check the report:</p>
-                <p><a href="${env.BUILD_URL}HTML_20Extent_20Report/">View Extent Report</a></p>
-                <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
-            """,
-            to: 'nguyenquy1409@gmail.com',
-            attachmentsPattern: 'target/extent-report/HTMLReport.html',
-            attachLog: true
-        )
+//         emailext(
+//             subject: "❌ FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+//             body: """
+//                 <h3>❌ Build Failed!</h3>
+//                 <p>Project: ${env.JOB_NAME}</p>
+//                 <p>Build Number: ${env.BUILD_NUMBER}</p>
+//                 <p>Check the report:</p>
+//                 <p><a href="${env.BUILD_URL}HTML_20Extent_20Report/">View Extent Report</a></p>
+//                 <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
+//             """,
+//             to: 'nguyenquy1409@gmail.com',
+//             attachmentsPattern: 'target/extent-report/HTMLReport.html',
+//             attachLog: true
+//         )
     }
     }
 }
