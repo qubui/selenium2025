@@ -65,6 +65,7 @@ pipeline {
                 <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
             """,
             to: 'nguyenquy1409@gmail.com',
+            attachmentsPattern: 'target/extent-report/HTMLReport.html',
             attachLog: false
         )
     }
@@ -81,6 +82,7 @@ pipeline {
                 <p><a href="${env.BUILD_URL}console">View Console Output</a></p>
             """,
             to: 'nguyenquy1409@gmail.com',
+            attachmentsPattern: 'target/extent-report/HTMLReport.html',
             attachLog: true
         )
     }
